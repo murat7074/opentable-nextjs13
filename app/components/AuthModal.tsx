@@ -19,7 +19,7 @@ const style = {
   p: 4,
 }
 
-export default function AuthModal({ isSignin }: { isSignin: Boolean }) {
+export default function AuthModal({ isSignin }: { isSignin: boolean }) {
   const [open, setOpen] = useState(false)
 
   const handleOpen = () => setOpen(true)
